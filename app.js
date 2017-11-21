@@ -1,6 +1,6 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function (options) {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -32,6 +32,11 @@ App({
         }
       }
     })
+
+    // 获取场景
+    console.log("[onLaunch] 场景值:", options.scene)
+    
+
   },
   globalData: {
     userInfo: null

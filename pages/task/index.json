@@ -1,0 +1,14 @@
+{
+  "tasks":[
+    {
+      "title":"挑战野猪王",
+      "level":"村1星",
+      "key":false
+    },
+    {
+      "title": "采集花生",
+      "level": "村1星",
+      "key":true
+    }
+  ]
+}

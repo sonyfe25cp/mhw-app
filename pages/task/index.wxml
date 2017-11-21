@@ -1,0 +1,33 @@
+<!--pages/task/index.wxml-->
+<view>
+  <!-- <view>任务等级:{{level}}</view> -->
+  <!-- <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{levels}}" style="line-height: 50px">{{item}}</view>
+    </picker-view-column>
+  </picker-view> -->
+  
+  <view class="section">
+    <picker bindchange="taskLevelChange" value="{{index}}" range="{{levels}}">
+      <view class="picker">
+        任务等级：{{levels[index]}}
+      </view>
+    </picker>
+    <view class="key-view">
+      <text>关键任务:</text><switch bindchange="keyTaskChange"/>
+    </view>
+  </view>
+  <view class="news-body">
+    <view class="news-block">
+      <text>1</text>
+    </view>
+    <view>
+      <icon type="info" size="20" color="green"/>
+      <text>11231sasdfas</text>
+    </view>
+    <view>
+      <icon type="warn" size="20" color="red"/>
+      <text>11231sasdfas</text>
+    </view>
+  </view>
+</view>

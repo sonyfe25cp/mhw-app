@@ -1,0 +1,7 @@
+/* pages/task/index.wxss */
+.news-body{
+  padding-bottom: 5px;
+}
+.news-block{
+  margin-top: 2px;
+}
