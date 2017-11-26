@@ -6,6 +6,27 @@ for (let i = 1; i < 10; i ++){
 for (let i = 1; i < 5; i++) {
   levels.push("G" + i + "星")
 }
+const tasks = []
+tasks.push(
+    {
+      "title": "挑战野猪王",
+      "level": "村1星",
+      "key": false,
+      "first": "野猪王1头",
+      "second": "彩虹",
+      "map": "密林"
+    }
+);
+tasks.push(
+    {
+      "title": "采集花生",
+      "level": "村1星",
+      "key": true,
+      "first": "花生一大堆",
+      "second": "彩虹",
+      "map": "溪流"
+    }
+);
 
 Page({
   /**
@@ -13,6 +34,7 @@ Page({
    */
   data: {
     levels: levels,
+    tasks : tasks,
   },
 
   /**
@@ -30,14 +52,28 @@ Page({
    */
   keyTaskChange: function(e){
     
-    
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var tasks = wx.request({
+      url: "page/task/index.json",
+      data: "",
+      header: {},
+      method: "GET",
+      dataType: "json",
+      success: function(res) {
+        this.setData(tasks)
+      },
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+    // this.setData(
+      // tasks
+    // );
+    
   },
 
   /**

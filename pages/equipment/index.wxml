@@ -1,0 +1,12 @@
+<!--pages/equipment/index.wxml-->
+<text>pages/equipment/index.wxml</text>
+<view>
+<!-- 部位 -->
+  <view>
+  </view>
+  <!-- 射手or近战 -->
+  <view></view>
+  <!-- 技能 -->
+  <view></view>
+  
+</view>

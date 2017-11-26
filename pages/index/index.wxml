@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<!-- <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -10,4 +10,42 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+</view> -->
+<swiper class="slides" autoplay="{{slides.length > 1}}" indicator-dots="{{slides.length > 1}}" indicator-color="#bcc0c9" indicator-active-color="#3a4861">
+  <swiper-item wx:for="{{slides}}" wx:key="id">
+    <navigator wx:if="{{item.link}}" url="{{item.link}}">
+      <image src="{{item.image}}" mode="aspectFill"/>
+    </navigator>
+    <image wx:else src="{{item.image}}" mode="aspectFill"/>
+  </swiper-item>
+</swiper>
+
+<!-- <view class="messages">
+  <view class="item" wx:for="{{messages}}" wx:key="id">
+    <navigator>
+      <text class="title">{{item.title}}</text>
+    </navigator>
+    <text class="date">{{item.date}}</text>
+    <navigator>
+      <image src="{{item.image}}"/>
+    </navigator>
+    <text class="summary">{{item.summary}}</text>
+     <navigator class="expand">Read All</navigator> 
+  </view>
 </view>
+<view id="bottom"></view> -->
+
+
+<view class="cells">
+  <navigator class="item" wx:for="{{news}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
+    <image src="{{item.images[0]}}" mode="aspectFill"/>
+    <view class="meta">
+      <text class="name">{{item.name}}</text>
+      <text class="address">{{item.content}}</text>
+      <text class="hours">更新时间：{{item.publishTime}}</text>
+    </view>
+  </navigator>
+</view>
+
+<view wx:if="{{hasMore}}" class="loadmore loading">正在加载...</view>
+<view wx:else class="loadmore">没有更多内容了</view>

@@ -1,8 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/task/index"
+    "pages/task/index",
+    "pages/references/index",
+    "pages/monster/index",
+    "pages/equipment/index",
+    "pages/list/list",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,22 +15,30 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "color": "#999",
+    "selectedColor": "#444",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
+        "iconPath":"assets/icons/common/Home.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/task/index",
+        "iconPath": "assets/icons/common/task_book_white.png",
         "text": "任务"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "怪物"
+        "pagePath": "pages/equipment/index",
+        "iconPath": "assets/icons/common/Equips.png",
+        "text": "配装"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "配装"
+        "pagePath": "pages/references/index",
+        "iconPath": "assets/icons/common/References.png",
+        "text": "资料"
       }
     ]
   }

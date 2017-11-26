@@ -1,14 +1,18 @@
 {
-  "tasks":[
+  "tasks": [
     {
       "title":"挑战野猪王",
       "level":"村1星",
-      "key":false
+      "key":false,
+      "first":"野猪王1头",
+      "second": "彩虹"
     },
     {
       "title": "采集花生",
       "level": "村1星",
-      "key":true
+      "key":true,
+      "first": "花生一大堆",
+      "second": "彩虹"
     }
   ]
 }

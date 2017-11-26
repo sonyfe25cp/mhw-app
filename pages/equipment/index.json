@@ -1,0 +1,2484 @@
+{
+  "results": [
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.204Z",
+      "skill": [
+        {
+          "name": "\u6c17\u307e\u3050\u308c",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30ec\u30b6\u30fc\u30d8\u30c3\u30c9",
+      "objectId": "59de234567f35600267ef312",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.204Z",
+      "type": "head",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.234Z",
+      "skill": [
+        {
+          "name": "\u6c17\u307e\u3050\u308c",
+          "value": 5
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30ec\u30b6\u30fc\u30d9\u30b9\u30c8",
+      "objectId": "59de234567f35600267ef313",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.234Z",
+      "type": "body",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.242Z",
+      "skill": [
+        {
+          "name": "\u6c17\u307e\u3050\u308c",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30ec\u30b6\u30fc\u30b0\u30e9\u30d6",
+      "objectId": "59de234567f35600267ef314",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.242Z",
+      "type": "hand",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.249Z",
+      "skill": [
+        {
+          "name": "\u63a1\u53d6",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u30ec\u30b6\u30fc\u30d9\u30eb\u30c8",
+      "objectId": "59de234567f35600267ef315",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.249Z",
+      "type": "leg",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.257Z",
+      "skill": [
+        {
+          "name": "\u63a1\u53d6",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30ec\u30b6\u30fc\u30d1\u30f3\u30c4",
+      "objectId": "59de234567f35600267ef316",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.257Z",
+      "type": "foot",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.264Z",
+      "skill": [],
+      "fireDef": 0,
+      "male": true,
+      "slots": 3,
+      "name": "\u30c1\u30a7\u30fc\u30f3\u30d8\u30c3\u30c9",
+      "objectId": "59de234567f35600267ef317",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.264Z",
+      "type": "head",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.271Z",
+      "skill": [
+        {
+          "name": "\u4f53\u529b",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30c1\u30a7\u30fc\u30f3\u30d9\u30b9\u30c8",
+      "objectId": "59de234567f35600267ef318",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.271Z",
+      "type": "body",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.279Z",
+      "skill": [
+        {
+          "name": "\u4f53\u529b",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30c1\u30a7\u30fc\u30f3\u30b0\u30e9\u30d6",
+      "objectId": "59de234567f35600267ef319",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.279Z",
+      "type": "hand",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.285Z",
+      "skill": [
+        {
+          "name": "\u91ce\u8349\u77e5\u8b58",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30c1\u30a7\u30fc\u30f3\u30d9\u30eb\u30c8",
+      "objectId": "59de234567f35600267ef31a",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.285Z",
+      "type": "leg",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.292Z",
+      "skill": [
+        {
+          "name": "\u4f53\u529b",
+          "value": 5
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30c1\u30a7\u30fc\u30f3\u30d1\u30f3\u30c4",
+      "objectId": "59de234567f35600267ef31b",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.292Z",
+      "type": "foot",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.298Z",
+      "skill": [
+        {
+          "name": "\u52a0\u8b77",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30d9\u30eb\u30c0\u30fc\u30bf\u30fc\u30d0\u30f3",
+      "objectId": "59de234567f35600267ef31c",
+      "waterDef": 1,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.298Z",
+      "type": "head",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.306Z",
+      "skill": [
+        {
+          "name": "\u52a0\u8b77",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30d9\u30eb\u30c0\u30fc\u30e1\u30a4\u30eb",
+      "objectId": "59de234567f35600267ef31d",
+      "waterDef": 1,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.306Z",
+      "type": "body",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.313Z",
+      "skill": [
+        {
+          "name": "\u52a0\u8b77",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30d9\u30eb\u30c0\u30fc\u30a2\u30fc\u30e0",
+      "objectId": "59de234567f35600267ef31e",
+      "waterDef": 1,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.313Z",
+      "type": "hand",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.321Z",
+      "skill": [
+        {
+          "name": "\u7b1b",
+          "value": 6
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30d9\u30eb\u30c0\u30fc\u30d9\u30eb\u30c8",
+      "objectId": "59de234567f35600267ef31f",
+      "waterDef": 1,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.321Z",
+      "type": "leg",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.327Z",
+      "skill": [
+        {
+          "name": "\u52a0\u8b77",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30d9\u30eb\u30c0\u30fc\u30b0\u30ea\u30fc\u30f4",
+      "objectId": "59de234567f35600267ef320",
+      "waterDef": 1,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.327Z",
+      "type": "foot",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.333Z",
+      "skill": [
+        {
+          "name": "\u5343\u91cc\u773c",
+          "value": 3
+        }
+      ],
+      "fireDef": 1,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30c8\u30d8\u30eb\u30e0",
+      "objectId": "59de234567f35600267ef321",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.333Z",
+      "type": "head",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.340Z",
+      "skill": [
+        {
+          "name": "\u5343\u91cc\u773c",
+          "value": 2
+        }
+      ],
+      "fireDef": 1,
+      "male": true,
+      "slots": 0,
+      "name": "\u30cf\u30f3\u30c8\u30e1\u30a4\u30eb",
+      "objectId": "59de234567f35600267ef322",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.340Z",
+      "type": "body",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.347Z",
+      "skill": [
+        {
+          "name": "\u5343\u91cc\u773c",
+          "value": 5
+        }
+      ],
+      "fireDef": 1,
+      "male": true,
+      "slots": 0,
+      "name": "\u30cf\u30f3\u30c8\u30a2\u30fc\u30e0",
+      "objectId": "59de234567f35600267ef323",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.347Z",
+      "type": "hand",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.354Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 3
+        }
+      ],
+      "fireDef": 1,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30c8\u30d5\u30a9\u30fc\u30eb\u30c9",
+      "objectId": "59de234567f35600267ef324",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.354Z",
+      "type": "leg",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.361Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 3
+        }
+      ],
+      "fireDef": 1,
+      "male": true,
+      "slots": 2,
+      "name": "\u30cf\u30f3\u30c8\u30b0\u30ea\u30fc\u30f4",
+      "objectId": "59de234567f35600267ef325",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.361Z",
+      "type": "foot",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.368Z",
+      "skill": [
+        {
+          "name": "\u5343\u91cc\u773c",
+          "value": 4
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30c8\u30ad\u30e3\u30c3\u30d7",
+      "objectId": "59de234567f35600267ef326",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.368Z",
+      "type": "head",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.375Z",
+      "skill": [
+        {
+          "name": "\u5343\u91cc\u773c",
+          "value": 2
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 0,
+      "name": "\u30cf\u30f3\u30c8\u30ec\u30b8\u30b9\u30c8",
+      "objectId": "59de234567f35600267ef327",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.375Z",
+      "type": "body",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.382Z",
+      "skill": [
+        {
+          "name": "\u5343\u91cc\u773c",
+          "value": 4
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 0,
+      "name": "\u30cf\u30f3\u30c8\u30ac\u30fc\u30c9",
+      "objectId": "59de234567f35600267ef328",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.382Z",
+      "type": "hand",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.388Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 3
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30c8\u30b3\u30fc\u30c8",
+      "objectId": "59de234567f35600267ef329",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.388Z",
+      "type": "leg",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.395Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 3
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 2,
+      "name": "\u30cf\u30f3\u30c8\u30ec\u30ae\u30f3\u30b9",
+      "objectId": "59de234567f35600267ef32a",
+      "waterDef": 0,
+      "defMax": 50,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.395Z",
+      "type": "foot",
+      "defMin": 1,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.402Z",
+      "skill": [
+        {
+          "name": "\u8010\u5bd2",
+          "value": 1
+        }
+      ],
+      "fireDef": -1,
+      "male": true,
+      "slots": 2,
+      "name": "\u30de\u30d5\u30e2\u30d5\u30d5\u30fc\u30c9",
+      "objectId": "59de234567f35600267ef32b",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.402Z",
+      "type": "head",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 2,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.409Z",
+      "skill": [
+        {
+          "name": "\u8010\u5bd2",
+          "value": 6
+        }
+      ],
+      "fireDef": -1,
+      "male": true,
+      "slots": 0,
+      "name": "\u30de\u30d5\u30e2\u30d5\u30b8\u30e3\u30b1\u30c3\u30c8",
+      "objectId": "59de234567f35600267ef32c",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.409Z",
+      "type": "body",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 2,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.416Z",
+      "skill": [
+        {
+          "name": "\u8010\u5bd2",
+          "value": 2
+        }
+      ],
+      "fireDef": -1,
+      "male": true,
+      "slots": 2,
+      "name": "\u30de\u30d5\u30e2\u30d5\u30df\u30c8\u30f3",
+      "objectId": "59de234567f35600267ef32d",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.416Z",
+      "type": "hand",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 2,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.423Z",
+      "skill": [
+        {
+          "name": "\u8010\u5bd2",
+          "value": 2
+        }
+      ],
+      "fireDef": -1,
+      "male": true,
+      "slots": 1,
+      "name": "\u30de\u30d5\u30e2\u30d5\u30b3\u30fc\u30c8",
+      "objectId": "59de234567f35600267ef32e",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.423Z",
+      "type": "leg",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 2,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.431Z",
+      "skill": [
+        {
+          "name": "\u8010\u5bd2",
+          "value": 4
+        }
+      ],
+      "fireDef": -1,
+      "male": true,
+      "slots": 0,
+      "name": "\u30de\u30d5\u30e2\u30d5\u30d6\u30fc\u30c4",
+      "objectId": "59de234567f35600267ef32f",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.431Z",
+      "type": "foot",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 2,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.438Z",
+      "skill": [
+        {
+          "name": "\u9054\u4eba",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30e6\u30af\u30e2\u30ce\u30ab\u30b5",
+      "objectId": "59de234567f35600267ef330",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.438Z",
+      "type": "head",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.445Z",
+      "skill": [
+        {
+          "name": "\u9054\u4eba",
+          "value": 4
+        },
+        {
+          "name": "\u56de\u907f\u6027\u80fd",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30e6\u30af\u30e2\u30ce\u30c9\u30a6\u30ae",
+      "objectId": "59de234567f35600267ef331",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.445Z",
+      "type": "body",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.452Z",
+      "skill": [
+        {
+          "name": "\u9054\u4eba",
+          "value": 2
+        },
+        {
+          "name": "\u56de\u907f\u6027\u80fd",
+          "value": 1
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30e6\u30af\u30e2\u30ce\u30b3\u30c6",
+      "objectId": "59de234567f35600267ef332",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.452Z",
+      "type": "hand",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.459Z",
+      "skill": [
+        {
+          "name": "\u9054\u4eba",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30e6\u30af\u30e2\u30ce\u30aa\u30d3",
+      "objectId": "59de234567f35600267ef333",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.459Z",
+      "type": "leg",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.469Z",
+      "skill": [
+        {
+          "name": "\u56de\u907f\u6027\u80fd",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u30e6\u30af\u30e2\u30ce\u30cf\u30ab\u30de",
+      "objectId": "59de234567f35600267ef334",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.469Z",
+      "type": "foot",
+      "defMin": 2,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.475Z",
+      "skill": [
+        {
+          "name": "\u904b\u642c",
+          "value": 3
+        },
+        {
+          "name": "\u8010\u6691",
+          "value": 1
+        }
+      ],
+      "fireDef": 1,
+      "male": true,
+      "slots": 1,
+      "name": "\u30ed\u30c3\u30af\u30e9\u30c3\u30af\u30b9\u30fc\u30c4",
+      "objectId": "59de234567f35600267ef335",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.475Z",
+      "type": "body",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 2
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.482Z",
+      "skill": [
+        {
+          "name": "\u904b\u642c",
+          "value": 3
+        },
+        {
+          "name": "\u8010\u6691",
+          "value": 2
+        }
+      ],
+      "fireDef": 1,
+      "male": true,
+      "slots": 0,
+      "name": "\u30ed\u30c3\u30af\u30e9\u30c3\u30af\u30b3\u30a4\u30eb",
+      "objectId": "59de234567f35600267ef336",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.482Z",
+      "type": "leg",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 2
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.488Z",
+      "skill": [
+        {
+          "name": "\u904b\u642c",
+          "value": 4
+        },
+        {
+          "name": "\u8010\u6691",
+          "value": 1
+        }
+      ],
+      "fireDef": 1,
+      "male": true,
+      "slots": 0,
+      "name": "\u30ed\u30c3\u30af\u30e9\u30c3\u30af\u30d6\u30fc\u30c4",
+      "objectId": "59de234567f35600267ef337",
+      "waterDef": 0,
+      "defMax": 51,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.488Z",
+      "type": "foot",
+      "defMin": 2,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 2
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.495Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 2
+        },
+        {
+          "name": "\u72e9\u4eba",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30d8\u30eb\u30e0",
+      "objectId": "59de234567f35600267ef338",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.495Z",
+      "type": "head",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.503Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30e1\u30a4\u30eb",
+      "objectId": "59de234567f35600267ef339",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.503Z",
+      "type": "body",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.511Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30a2\u30fc\u30e0",
+      "objectId": "59de234567f35600267ef33a",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.511Z",
+      "type": "hand",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.518Z",
+      "skill": [
+        {
+          "name": "\u72e9\u4eba",
+          "value": 6
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30d5\u30a9\u30fc\u30eb\u30c9",
+      "objectId": "59de234567f35600267ef33b",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.518Z",
+      "type": "leg",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.524Z",
+      "skill": [
+        {
+          "name": "\u72e9\u4eba",
+          "value": 1
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30b0\u30ea\u30fc\u30f4",
+      "objectId": "59de234567f35600267ef33c",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.524Z",
+      "type": "foot",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.531Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 3
+        },
+        {
+          "name": "\u72e9\u4eba",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30ad\u30e3\u30c3\u30d7",
+      "objectId": "59de234567f35600267ef33d",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.531Z",
+      "type": "head",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.538Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30ec\u30b8\u30b9\u30c8",
+      "objectId": "59de234567f35600267ef33e",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.538Z",
+      "type": "body",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.545Z",
+      "skill": [
+        {
+          "name": "\u9ad8\u901f\u8a2d\u7f6e",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30ac\u30fc\u30c9",
+      "objectId": "59de234567f35600267ef33f",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.545Z",
+      "type": "hand",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.554Z",
+      "skill": [
+        {
+          "name": "\u72e9\u4eba",
+          "value": 6
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30b3\u30fc\u30c8",
+      "objectId": "59de234567f35600267ef340",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.554Z",
+      "type": "leg",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.561Z",
+      "skill": [
+        {
+          "name": "\u72e9\u4eba",
+          "value": 1
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u30cf\u30f3\u30bf\u30fc\u30ec\u30ae\u30f3\u30b9",
+      "objectId": "59de234567f35600267ef341",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.561Z",
+      "type": "foot",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.575Z",
+      "skill": [
+        {
+          "name": "KO",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30dc\u30fc\u30f3\u30d8\u30eb\u30e0",
+      "objectId": "59de234567f35600267ef342",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.575Z",
+      "type": "head",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.582Z",
+      "skill": [
+        {
+          "name": "KO",
+          "value": 2
+        },
+        {
+          "name": "\u7b1b",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30dc\u30fc\u30f3\u30e1\u30a4\u30eb",
+      "objectId": "59de234567f35600267ef343",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.582Z",
+      "type": "body",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.608Z",
+      "skill": [
+        {
+          "name": "KO",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u30dc\u30fc\u30f3\u30a2\u30fc\u30e0",
+      "objectId": "59de234567f35600267ef344",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.608Z",
+      "type": "hand",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.615Z",
+      "skill": [
+        {
+          "name": "KO",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u30dc\u30fc\u30f3\u30d5\u30a9\u30fc\u30eb\u30c9",
+      "objectId": "59de234567f35600267ef345",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.615Z",
+      "type": "leg",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.623Z",
+      "skill": [
+        {
+          "name": "\u7b1b",
+          "value": 6
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30dc\u30fc\u30f3\u30b0\u30ea\u30fc\u30f4",
+      "objectId": "59de234567f35600267ef346",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.623Z",
+      "type": "foot",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.633Z",
+      "skill": [
+        {
+          "name": "KO",
+          "value": 5
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30dc\u30fc\u30f3\u30ad\u30e3\u30c3\u30d7",
+      "objectId": "59de234567f35600267ef347",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.633Z",
+      "type": "head",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.642Z",
+      "skill": [
+        {
+          "name": "KO",
+          "value": 2
+        },
+        {
+          "name": "\u7b1b",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30dc\u30fc\u30f3\u30ec\u30b8\u30b9\u30c8",
+      "objectId": "59de234567f35600267ef348",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.642Z",
+      "type": "body",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.651Z",
+      "skill": [
+        {
+          "name": "KO",
+          "value": 2
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u30dc\u30fc\u30f3\u30ac\u30fc\u30c9",
+      "objectId": "59de234567f35600267ef349",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.651Z",
+      "type": "hand",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.659Z",
+      "skill": [
+        {
+          "name": "KO",
+          "value": 1
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u30dc\u30fc\u30f3\u30b3\u30fc\u30c8",
+      "objectId": "59de234567f35600267ef34a",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.659Z",
+      "type": "leg",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.670Z",
+      "skill": [
+        {
+          "name": "\u7b1b",
+          "value": 6
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30dc\u30fc\u30f3\u30ec\u30ae\u30f3\u30b9",
+      "objectId": "59de234567f35600267ef34b",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.670Z",
+      "type": "foot",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": -1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.679Z",
+      "skill": [
+        {
+          "name": "\u7761\u7720",
+          "value": 8
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30b9\u30ad\u30f3\u30e9\u30a4\u30c8\u30d9\u30eb\u30c8",
+      "objectId": "59de234567f35600267ef34c",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.679Z",
+      "type": "leg",
+      "defMin": 5,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.689Z",
+      "skill": [
+        {
+          "name": "\u5bfe\u9632\u5fa1DOWN",
+          "value": 8
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30a2\u30a4\u30a2\u30f3\u30d9\u30eb\u30c8",
+      "objectId": "59de234567f35600267ef34d",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "all",
+      "createdAt": "2017-10-11T13:57:25.689Z",
+      "type": "leg",
+      "defMin": 5,
+      "thunderDef": 3,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.699Z",
+      "skill": [
+        {
+          "name": "\u7279\u6b8a\u653b\u6483",
+          "value": 3
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 1,
+      "name": "\u6df7\u6c8c\u306e\u30d1\u30aa",
+      "objectId": "59de234567f35600267ef34e",
+      "waterDef": -2,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.699Z",
+      "type": "head",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.709Z",
+      "skill": [
+        {
+          "name": "\u7279\u6b8a\u653b\u6483",
+          "value": 2
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 2,
+      "name": "\u6df7\u6c8c\u306e\u30ab\u30a4",
+      "objectId": "59de234567f35600267ef34f",
+      "waterDef": -2,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.709Z",
+      "type": "body",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.717Z",
+      "skill": [
+        {
+          "name": "\u7279\u6b8a\u653b\u6483",
+          "value": 4
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 1,
+      "name": "\u6df7\u6c8c\u306e\u30c5\u30a1\u30f3",
+      "objectId": "59de234567f35600267ef350",
+      "waterDef": -2,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.717Z",
+      "type": "head",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.725Z",
+      "skill": [
+        {
+          "name": "\u7279\u6b8a\u653b\u6483",
+          "value": 1
+        }
+      ],
+      "fireDef": 2,
+      "male": true,
+      "slots": 2,
+      "name": "\u6df7\u6c8c\u306e\u30a4\u30fc",
+      "objectId": "59de234567f35600267ef351",
+      "waterDef": -2,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.725Z",
+      "type": "body",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.734Z",
+      "skill": [
+        {
+          "name": "\u91ce\u8349\u77e5\u8b58",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u72e9\u4eba\u306e\u9769\u7bed\u624b",
+      "objectId": "59de234567f35600267ef352",
+      "waterDef": 1,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.734Z",
+      "type": "hand",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.742Z",
+      "skill": [
+        {
+          "name": "\u91ce\u8349\u77e5\u8b58",
+          "value": 5
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u72e9\u4eba\u306e\u9769\u81d1\u5f53",
+      "objectId": "59de234567f35600267ef353",
+      "waterDef": 1,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.742Z",
+      "type": "leg",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.751Z",
+      "skill": [
+        {
+          "name": "\u91ce\u8349\u77e5\u8b58",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u72e9\u4eba\u306e\u9769\u624b\u888b",
+      "objectId": "59de234567f35600267ef354",
+      "waterDef": 1,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.751Z",
+      "type": "hand",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.758Z",
+      "skill": [
+        {
+          "name": "\u91ce\u8349\u77e5\u8b58",
+          "value": 5
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u72e9\u4eba\u306e\u9769\u9577\u9774",
+      "objectId": "59de234567f35600267ef355",
+      "waterDef": 1,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.758Z",
+      "type": "leg",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.766Z",
+      "skill": [
+        {
+          "name": "\u6e1b\u6c17\u653b\u6483",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u8df3\u72d7\u7adc\u306e\u9769\u7bed\u624b",
+      "objectId": "59de234567f35600267ef356",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.766Z",
+      "type": "hand",
+      "defMin": 6,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.774Z",
+      "skill": [
+        {
+          "name": "\u6e1b\u6c17\u653b\u6483",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u8df3\u72d7\u7adc\u306e\u9769\u81d1\u5f53",
+      "objectId": "59de234567f35600267ef357",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.774Z",
+      "type": "foot",
+      "defMin": 6,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.782Z",
+      "skill": [
+        {
+          "name": "\u6e1b\u6c17\u653b\u6483",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u8df3\u72d7\u7adc\u306e\u9769\u624b\u888b",
+      "objectId": "59de234567f35600267ef358",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.782Z",
+      "type": "hand",
+      "defMin": 3,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.789Z",
+      "skill": [
+        {
+          "name": "\u6e1b\u6c17\u653b\u6483",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u8df3\u72d7\u7adc\u306e\u9769\u9577\u9774",
+      "objectId": "59de234567f35600267ef359",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.789Z",
+      "type": "foot",
+      "defMin": 3,
+      "thunderDef": 1,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.796Z",
+      "skill": [
+        {
+          "name": "\u9054\u4eba",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u72d7\u7adc\u306e\u9769\u7bed\u624b",
+      "objectId": "59de234567f35600267ef35a",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.796Z",
+      "type": "hand",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.817Z",
+      "skill": [
+        {
+          "name": "\u9054\u4eba",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u72d7\u7adc\u306e\u9769\u9577\u9774",
+      "objectId": "59de234567f35600267ef35d",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.817Z",
+      "type": "foot",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.803Z",
+      "skill": [
+        {
+          "name": "\u9054\u4eba",
+          "value": 3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 2,
+      "name": "\u72d7\u7adc\u306e\u9769\u81d1\u5f53",
+      "objectId": "59de234567f35600267ef35b",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.803Z",
+      "type": "foot",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.810Z",
+      "skill": [
+        {
+          "name": "\u9054\u4eba",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u72d7\u7adc\u306e\u9769\u624b\u888b",
+      "objectId": "59de234567f35600267ef35c",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.810Z",
+      "type": "hand",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 1,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.833Z",
+      "skill": [
+        {
+          "name": "\u653b\u6483",
+          "value": 3
+        },
+        {
+          "name": "\u706b\u5c5e\u6027\u653b\u6483",
+          "value": 1
+        },
+        {
+          "name": "\u9632\u5fa1",
+          "value": -2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 0,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30d8\u30eb\u30e0",
+      "objectId": "59de234567f35600267ef35e",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.833Z",
+      "type": "head",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.841Z",
+      "skill": [
+        {
+          "name": "\u653b\u6483",
+          "value": 3
+        },
+        {
+          "name": "\u9632\u5fa1",
+          "value": -2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 0,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30e1\u30a4\u30eb",
+      "objectId": "59de234567f35600267ef35f",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.841Z",
+      "type": "body",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.848Z",
+      "skill": [
+        {
+          "name": "\u706b\u5c5e\u6027\u653b\u6483",
+          "value": 3
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30a2\u30fc\u30e0",
+      "objectId": "59de234567f35600267ef360",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.848Z",
+      "type": "hand",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.854Z",
+      "skill": [
+        {
+          "name": "\u653b\u6483",
+          "value": 4
+        },
+        {
+          "name": "\u9632\u5fa1",
+          "value": -2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30d5\u30a9\u30fc\u30eb\u30c9",
+      "objectId": "59de234567f35600267ef361",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.854Z",
+      "type": "leg",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.862Z",
+      "skill": [
+        {
+          "name": "\u706b\u5c5e\u6027\u653b\u6483",
+          "value": 2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30b0\u30ea\u30fc\u30f4",
+      "objectId": "59de234567f35600267ef362",
+      "waterDef": 0,
+      "defMax": 54,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.862Z",
+      "type": "foot",
+      "defMin": 6,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.868Z",
+      "skill": [
+        {
+          "name": "\u653b\u6483",
+          "value": 3
+        },
+        {
+          "name": "\u706b\u5c5e\u6027\u653b\u6483",
+          "value": 2
+        },
+        {
+          "name": "\u9632\u5fa1",
+          "value": -2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 0,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30ad\u30e3\u30c3\u30d7",
+      "objectId": "59de234567f35600267ef363",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.868Z",
+      "type": "head",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.876Z",
+      "skill": [
+        {
+          "name": "\u653b\u6483",
+          "value": 3
+        },
+        {
+          "name": "\u9632\u5fa1",
+          "value": -2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 0,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30ec\u30b8\u30b9\u30c8",
+      "objectId": "59de234567f35600267ef364",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.876Z",
+      "type": "body",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.883Z",
+      "skill": [
+        {
+          "name": "\u706b\u5c5e\u6027\u653b\u6483",
+          "value": 2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30ac\u30fc\u30c9",
+      "objectId": "59de234567f35600267ef365",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.883Z",
+      "type": "hand",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.890Z",
+      "skill": [
+        {
+          "name": "\u653b\u6483",
+          "value": 4
+        },
+        {
+          "name": "\u9632\u5fa1",
+          "value": -2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30b3\u30fc\u30c8",
+      "objectId": "59de234567f35600267ef366",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.890Z",
+      "type": "leg",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.897Z",
+      "skill": [
+        {
+          "name": "\u706b\u5c5e\u6027\u653b\u6483",
+          "value": 2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30b8\u30e3\u30ae\u30a3\u30ec\u30ae\u30f3\u30b9",
+      "objectId": "59de234567f35600267ef367",
+      "waterDef": 0,
+      "defMax": 52,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.897Z",
+      "type": "foot",
+      "defMin": 3,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.906Z",
+      "skill": [
+        {
+          "name": "\u8df3\u8e8d",
+          "value": 3
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30d8\u30eb\u30e0",
+      "objectId": "59de234567f35600267ef368",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.906Z",
+      "type": "head",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.913Z",
+      "skill": [
+        {
+          "name": "\u8df3\u8e8d",
+          "value": 4
+        },
+        {
+          "name": "\u6e1b\u6c17\u653b\u6483",
+          "value": 1
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 0,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30e1\u30a4\u30eb",
+      "objectId": "59de234567f35600267ef369",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.913Z",
+      "type": "body",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.923Z",
+      "skill": [
+        {
+          "name": "\u8df3\u8e8d",
+          "value": 1
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 2,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30a2\u30fc\u30e0",
+      "objectId": "59de234567f35600267ef36a",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.923Z",
+      "type": "hand",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.930Z",
+      "skill": [
+        {
+          "name": "\u6e1b\u6c17\u653b\u6483",
+          "value": 2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30d5\u30a9\u30fc\u30eb\u30c9",
+      "objectId": "59de234567f35600267ef36b",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.930Z",
+      "type": "leg",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.937Z",
+      "skill": [
+        {
+          "name": "\u8df3\u8e8d",
+          "value": 2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30b0\u30ea\u30fc\u30f4",
+      "objectId": "59de234567f35600267ef36c",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.937Z",
+      "type": "foot",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": 0,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.944Z",
+      "skill": [
+        {
+          "name": "\u8df3\u8e8d",
+          "value": 4
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30ad\u30e3\u30c3\u30d7",
+      "objectId": "59de234567f35600267ef36d",
+      "waterDef": 1,
+      "defMax": 53,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.944Z",
+      "type": "head",
+      "defMin": 4,
+      "thunderDef": 1,
+      "iceDef": 1,
+      "dragonDef": 1
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.951Z",
+      "skill": [
+        {
+          "name": "\u8df3\u8e8d",
+          "value": 4
+        },
+        {
+          "name": "\u6e1b\u6c17\u653b\u6483",
+          "value": 1
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 0,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30ec\u30b8\u30b9\u30c8",
+      "objectId": "59de234567f35600267ef36e",
+      "waterDef": 1,
+      "defMax": 53,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.951Z",
+      "type": "body",
+      "defMin": 4,
+      "thunderDef": 1,
+      "iceDef": 1,
+      "dragonDef": 1
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.958Z",
+      "skill": [
+        {
+          "name": "\u8df3\u8e8d",
+          "value": 1
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 2,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30ac\u30fc\u30c9",
+      "objectId": "59de234567f35600267ef36f",
+      "waterDef": 1,
+      "defMax": 53,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.958Z",
+      "type": "hand",
+      "defMin": 4,
+      "thunderDef": 1,
+      "iceDef": 1,
+      "dragonDef": 1
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.965Z",
+      "skill": [
+        {
+          "name": "\u6e1b\u6c17\u653b\u6483",
+          "value": 2
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30b3\u30fc\u30c8",
+      "objectId": "59de234567f35600267ef370",
+      "waterDef": 1,
+      "defMax": 53,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.965Z",
+      "type": "leg",
+      "defMin": 4,
+      "thunderDef": 1,
+      "iceDef": 1,
+      "dragonDef": 1
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.973Z",
+      "skill": [
+        {
+          "name": "\u8df3\u8e8d",
+          "value": 1
+        }
+      ],
+      "fireDef": -2,
+      "male": true,
+      "slots": 1,
+      "name": "\u30de\u30c3\u30ab\u30a9\u30ec\u30ae\u30f3\u30b9",
+      "objectId": "59de234567f35600267ef371",
+      "waterDef": 1,
+      "defMax": 53,
+      "hunterType": "gun",
+      "createdAt": "2017-10-11T13:57:25.973Z",
+      "type": "foot",
+      "defMin": 4,
+      "thunderDef": 1,
+      "iceDef": 1,
+      "dragonDef": 1
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.981Z",
+      "skill": [
+        {
+          "name": "\u6c17\u7d76",
+          "value": 3
+        },
+        {
+          "name": "\u9ebb\u75fa",
+          "value": -3
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30e9\u30f3\u30dd\u30b9\u30d8\u30eb\u30e0",
+      "objectId": "59de234567f35600267ef372",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.981Z",
+      "type": "head",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": -2,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.987Z",
+      "skill": [
+        {
+          "name": "\u6c17\u7d76",
+          "value": 4
+        },
+        {
+          "name": "\u9ebb\u75fa",
+          "value": -4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 0,
+      "name": "\u30e9\u30f3\u30dd\u30b9\u30e1\u30a4\u30eb",
+      "objectId": "59de234567f35600267ef373",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.987Z",
+      "type": "body",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": -2,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:25.996Z",
+      "skill": [
+        {
+          "name": "\u6c34\u5c5e\u6027\u653b\u6483",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30e9\u30f3\u30dd\u30b9\u30a2\u30fc\u30e0",
+      "objectId": "59de234567f35600267ef374",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:25.996Z",
+      "type": "hand",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": -2,
+      "dragonDef": 0
+    },
+    {
+      "female": true,
+      "updatedAt": "2017-10-11T13:57:26.003Z",
+      "skill": [
+        {
+          "name": "\u6c34\u5c5e\u6027\u653b\u6483",
+          "value": 4
+        }
+      ],
+      "fireDef": 0,
+      "male": true,
+      "slots": 1,
+      "name": "\u30e9\u30f3\u30dd\u30b9\u30d5\u30a9\u30fc\u30eb\u30c9",
+      "objectId": "59de234667f35600267ef375",
+      "waterDef": 0,
+      "defMax": 56,
+      "hunterType": "blade",
+      "createdAt": "2017-10-11T13:57:26.003Z",
+      "type": "leg",
+      "defMin": 8,
+      "thunderDef": 0,
+      "iceDef": -2,
+      "dragonDef": 0
+    }
+  ],
+  "className": "armors"
+}
