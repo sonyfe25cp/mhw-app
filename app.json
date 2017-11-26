@@ -6,7 +6,8 @@
     "pages/monster/index",
     "pages/equipment/index",
     "pages/list/list",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/references/map"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,7 +23,7 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath":"assets/icons/common/Home.png",
+        "iconPath": "assets/icons/common/Home.png",
         "text": "首页"
       },
       {

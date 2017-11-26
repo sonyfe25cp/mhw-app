@@ -5,15 +5,18 @@ const slides = [
 ]
 
 const categories = [
-  { icon: '/assets/icons/common/HappyFelyne.png', text: '猫饭', category_id: 1 },
+  { icon: '/assets/icons/common/HappyFelyne.png', text: '猫饭技能', category_id: 1 },
   { icon: '/assets/icons/grid-02.png', text: '农场', category_id: 2 },
   { icon: '/assets/icons/grid-03.png', text: '变装', category_id: 3 },
   { icon: '/assets/icons/grid-04.png', text: '护石', category_id: 4 },
   { icon: '/assets/icons/grid-05.png', text: '技能', category_id: 5 },
   { icon: '/assets/icons/grid-06.png', text: '装备箱', category_id: 6 },
-  { icon: '/assets/icons/grid-08.png', text: '会员', category_id: 7 },
-  { icon: '/assets/icons/grid-08.png', text: '投稿', category_id: 8 },
-  { icon: '/assets/icons/grid-07.png', text: '关于我们', category_id: 9 }
+  { icon: '/assets/icons/grid-08.png', text: '入门资料', category_id: 7 },
+  { icon: '/assets/icons/grid-08.png', text: '猫的培养', category_id: 8 },
+  { icon: '/assets/icons/grid-08.png', text: '滴滴打猎', category_id: 9 , link:"/pages/references/map"},
+  { icon: '/assets/icons/grid-07.png', text: '个人资料', category_id: 10 },
+  { icon: '/assets/icons/grid-07.png', text: '问题反馈', category_id: 11 },
+  { icon: '/assets/icons/grid-07.png', text: '关于我们', category_id: 12 }
 ]
 
 Page({

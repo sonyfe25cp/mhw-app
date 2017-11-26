@@ -10,7 +10,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     messages: [],
     news : [], 
-    hasMore: true
+    hasMore: false
   },
   //事件处理函数
   bindViewTap: function () {
@@ -42,7 +42,6 @@ Page({
           "",
         ]
       })
-      
     }
     const slides = [
       { image: 'http://ww1.sinaimg.cn/mw690/006ThXL5ly1fj7zx3w751j30u00dmgy3.jpg', link: '' },

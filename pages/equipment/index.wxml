@@ -1,5 +1,5 @@
 <!--pages/equipment/index.wxml-->
-<text>pages/equipment/index.wxml</text>
+<!-- <text>pages/equipment/index.wxml</text> -->
 <view>
 <!-- 部位 -->
   <view>
@@ -8,5 +8,7 @@
   <view></view>
   <!-- 技能 -->
   <view></view>
-  
+<!-- 装备列表 -->
+  <view></view>
+
 </view>
