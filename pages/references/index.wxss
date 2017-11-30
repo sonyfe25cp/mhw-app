@@ -41,6 +41,11 @@
   font-size: 28rpx;
 }
 
+.grids .item .contact{
+  
+}
+
+
 .links {
   display: flex;
   justify-content: space-between;

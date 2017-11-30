@@ -22,16 +22,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    const messages = this.data.messages
     const news = this.data.news
     for (var i = 0; i < 2; i++) {
-      messages.push({
-        title: '免费送票！超有内涵的门票。',
-        date: i + ' September',
-        image: 'https://unsplash.it/400/300',
-        summary: '最糟糕的，也许就是最幸运的。'
-      })
-
       news.push({
         id: i,
         name: "索尼推《怪物猎人世界》限定版联动周边 又来骗钱？",
@@ -47,7 +39,7 @@ Page({
       { image: 'http://ww1.sinaimg.cn/mw690/006ThXL5ly1fj7zx3w751j30u00dmgy3.jpg', link: '' },
       { image: 'http://ww1.sinaimg.cn/mw690/006ThXL5ly1fj6ckx9tlwj30u00fqk8n.jpg', link: '/pages/list/list?cat=10' }
     ]
-    this.setData({ messages, slides, news })
+    this.setData({ slides, news })
   },
   /**
  * 生命周期函数--监听页面初次渲染完成

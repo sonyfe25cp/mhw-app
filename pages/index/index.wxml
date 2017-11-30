@@ -20,22 +20,6 @@
   </swiper-item>
 </swiper>
 
-<!-- <view class="messages">
-  <view class="item" wx:for="{{messages}}" wx:key="id">
-    <navigator>
-      <text class="title">{{item.title}}</text>
-    </navigator>
-    <text class="date">{{item.date}}</text>
-    <navigator>
-      <image src="{{item.image}}"/>
-    </navigator>
-    <text class="summary">{{item.summary}}</text>
-     <navigator class="expand">Read All</navigator> 
-  </view>
-</view>
-<view id="bottom"></view> -->
-
-
 <view class="cells">
   <navigator class="item" wx:for="{{news}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
     <image src="{{item.images[0]}}" mode="aspectFill"/>
@@ -47,5 +31,5 @@
   </navigator>
 </view>
 
-<view wx:if="{{hasMore}}" class="loadmore loading">正在加载...</view>
-<view wx:else class="loadmore">没有更多内容了</view>
+<!-- <view wx:if="{{hasMore}}" class="loadmore loading">正在加载...</view> -->
+<!-- <view wx:else class="loadmore">没有更多内容了</view> -->

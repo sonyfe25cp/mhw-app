@@ -1,1 +1,36 @@
-/* pages/equipment/index.wxss */
+.equipment{
+  border-top: 1rpx solid #eee;
+  border-left: 1rpx solid #eee;
+  background-color: #fff;
+}
+.top{
+  position: fixed;
+  width:100%;
+  top:0;
+  height: 250rpx;
+  z-index: 999;
+  background-color:#fff;
+}
+.position{
+  box-sizing: border-box;
+}
+
+.position image{
+  width: 20%;
+  height: 90rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.line{
+  height: 1px;
+  background-color: #999;
+}
+.vex-line{
+  width: 1px;
+  background-color: #999;
+}
+
+.equip-list{
+  margin-top: 250rpx;
+}

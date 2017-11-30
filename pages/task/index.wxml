@@ -1,25 +1,31 @@
 <!--pages/task/index.wxml-->
-<view>
-   <view class="section">
-    <picker bindchange="taskLevelChange" value="{{index}}" range="{{levels}}">
-      <view class="picker">
-        任务等级：{{levels[index]}}
-      </view>
-    </picker>
-    <view class="key-view">
-      <text>关键任务:</text>
-      <switch bindchange="keyTaskChange" />
+
+<view class="section">
+  <picker bindchange="taskLevelChange" value="{{index}}" range="{{levels}}">
+    <view class="picker">
+      任务等级：{{levels[index]}}
     </view>
-  </view> 
-  <view class="tasks">
-    <navigator wx:for="{{tasks}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
-      <view class="task">
-        <text class="title">{{item.title}}</text>
-         <text class="first">主目标：{{item.first}}</text> 
-        <text class="second">次目标：{{item.second}}</text>
-        <text class="map">地图：{{item.map || 'none'}}</text> 
-      </view>
-      <view class="key">{{item.key || 'none'}}</view>
-    </navigator>
+  </picker>
+  <view class="key-view">
+    <text>关键任务:</text>
+    <switch bindchange="keyTaskChange" />
   </view>
+</view>
+
+<view class="task-list">
+  <navigator wx:for="{{tasks}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
+    <view class="task-item">
+      <view class="task-item-left">
+        <text class="title">{{item.title}}</text>
+        <text class="first">主目标：{{item.first}}</text>
+        <text class="second">次目标：{{item.second}}</text>
+      </view>
+      <view class="task-item-right">
+        <text class="map">地图：{{item.map || 'none'}}</text>
+        <block wx:if="{{item.key}}">
+          <text class="key">关键任务</text>
+        </block>
+      </view>
+    </view>
+  </navigator>
 </view>
