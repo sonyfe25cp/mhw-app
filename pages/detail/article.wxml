@@ -1,0 +1,11 @@
+<!--pages/detail/article.wxml-->
+<view class="detail">
+ 
+  <text class='title'>{{article.Title}}</text>
+ 
+  <image class='head-img' src='{{ article.Image }}'></image>
+ 
+ <rich-text class='main-body'>{{ article.Content }}</rich-text>
+ 
+ <!-- <text>支持方法</text> -->
+</view>

@@ -1,22 +1,26 @@
 <!--pages/references/index.wxml-->
 <view class="links">
-  <navigator url="/pages/list/list?type=recommend">
-    <image src="http://ww1.sinaimg.cn/mw690/006ThXL5ly1fj7zx3w751j30u00dmgy3.jpg" />
-  </navigator>
-  <navigator url="/pages/forum/forum">
-    <image src="http://ww1.sinaimg.cn/mw690/006ThXL5ly1fj7zx3w751j30u00dmgy3.jpg" />
+  <navigator url="/pages/detail/article?id={{item.ID}}" wx:for="{{slides}}" wx:key="id">
+    <image src="{{ item.Image }}" />
   </navigator>
 </view>
 
 <view class="grids">
-  <navigator class="item" wx:for="{{categories}}" wx:key="id" url="{{item.link || '/pages/list/list?cat={{item.id}}' }}">
+  <navigator class="item" wx:for="{{categories}}" wx:key="id" url="{{item.link || '/pages/unknown/index' }}">
     <image src="{{item.icon}}" />
     <text>{{item.text}}</text>
   </navigator>
+
+
+  <navigator class="item" url="/pages/references/personal">
+    <image src="/assets/icons/common/VillageIcon01.png" />
+    <text>个人资料</text>
+  </navigator>
+  
   <view class="item contact">
     <image src="/assets/icons/common/ItemIcon062c.png" />
     <text>客服</text>
-    <contact-button type="default-light" size="20" session-from="weapp"></contact-button>
+    <contact-button type="default-light" size="20"  session-from="weapp"></contact-button>
   </view>
 
 </view>

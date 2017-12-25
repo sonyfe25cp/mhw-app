@@ -1,0 +1,6 @@
+<!--pages/unknown/index.wxml-->
+<view class="announce">
+  <text>待游戏正式公测后开放, 请加下面的微信进入狩猎微信群，日日狩猎！</text>
+  <image src='/assets/images/2weima_meitu_1.jpg' mode='aspectFill'></image>  
+</view>
+

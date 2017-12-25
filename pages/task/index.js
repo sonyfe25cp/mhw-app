@@ -1,4 +1,7 @@
 // pages/task/index.js
+const fetch = require('../../utils/fetch')
+
+
 const levels = []
 for (let i = 1; i < 10; i ++){
   levels.push("村"+i+"星")
@@ -34,7 +37,7 @@ Page({
    */
   data: {
     levels: levels,
-    tasks : tasks,
+    tasks : [],
   },
 
   /**
@@ -58,22 +61,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var tasks = wx.request({
-      url: "page/task/index.json",
-      data: "",
-      header: {},
-      method: "GET",
-      dataType: "json",
-      success: function(res) {
-        this.setData(tasks)
-      },
-      fail: function(res) {},
-      complete: function(res) {},
-    })
-    // this.setData(
-      // tasks
-    // );
-    
+    fetch(`/tasks`)
+      .then(res => {
+        // console.log('tasks', res)
+        // if (res.data){
+        //   this.setData({ tasks: res.data })
+        // }else{
+          this.setData({tasks: tasks})
+        // }
+      })
   },
 
   /**

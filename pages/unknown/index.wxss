@@ -1,0 +1,16 @@
+/* pages/unknown/index.wxss */
+
+.announce{
+  margin-top: 10rpx;
+  align-content: center;
+}
+
+text{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40rpx;
+}
+
+image{
+  height: 1000rpx;
+  width: 100%;
+}

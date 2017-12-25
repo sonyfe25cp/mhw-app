@@ -1,0 +1,22 @@
+/* pages/detail/article.wxss */
+.detail{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.title{
+  font-family: '微软雅黑';
+  font-size: 40rpx;
+}
+
+
+.head-img{
+  align-content: center;
+  min-width: 100%;
+  height: 380rpx;
+}
+
+.main-body{
+  margin-left: 5rpx;
+}

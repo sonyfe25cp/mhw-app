@@ -7,13 +7,18 @@
     "pages/equipment/index",
     "pages/list/list",
     "pages/detail/detail",
-    "pages/references/map"
+    "pages/references/map",
+    "pages/detail/article",
+    "pages/unknown/index",
+    "pages/references/personal"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "怪物猎人世界助手",
     "navigationBarTextStyle": "black"
+    
   },
   "tabBar": {
     "color": "#999",
@@ -34,7 +39,7 @@
         "text": "任务"
       },
       {
-        "pagePath": "pages/equipment/index",
+        "pagePath": "pages/unknown/index",
         "iconPath": "assets/icons/common/ItemIcon024.png",
         "selectedIconPath": "assets/icons/common/ItemIcon024a.png",
         "text": "配装"
