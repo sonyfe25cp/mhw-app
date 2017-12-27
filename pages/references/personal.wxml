@@ -11,7 +11,7 @@
 
 <view class="list">
   <view class="item">
-    <text>姓名：</text>
+    <text>昵称：</text>
     <input value='{{name}}' id="name" bindinput="bindKeyInput" placeholder="输入昵称"/>
   </view>
   <view class="item">

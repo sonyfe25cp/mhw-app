@@ -19,13 +19,15 @@
     <image wx:else src="{{item.Image}}" mode="scaleToFill"/>
   </swiper-item>
 </swiper>
-
+<!--
 <scroll-view class="cells" scroll-y="true" 
-bindscrolltoupper="pullDownRefresh"  
+ bindscrolltoupper="pullDownRefresh"  
 bindscroll="scroll" 
-bindscrolltolower="pullUpLoad">
-
-
+bindscrolltolower="pullUpLoad" 
+style="height: 415px;"
+>
+-->
+<view class="cells">
   <navigator class="item" wx:for="{{news}}" wx:key="id" url="/pages/detail/article?id={{item.ID}}">
     <image src="{{item.Image}}" mode="aspectFill"/>
     <view class="meta">
@@ -34,8 +36,8 @@ bindscrolltolower="pullUpLoad">
       <!-- <text class="hours">更新时间：{{item.publishTime}}</text> -->
     </view>
   </navigator>
-  
-</scroll-view>
+  </view>
+<!-- </scroll-view> -->
 <view>  
     <loading hidden="{{hasMore}}" bindchange="loadingChange">  
     加载中...  

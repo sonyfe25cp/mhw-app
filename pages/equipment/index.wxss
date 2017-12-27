@@ -1,36 +1,126 @@
-.equipment{
+.equipment {
   border-top: 1rpx solid #eee;
   border-left: 1rpx solid #eee;
   background-color: #fff;
 }
-.top{
+
+.top {
   position: fixed;
-  width:100%;
-  top:0;
+  width: 100%;
+  top: 0;
   height: 250rpx;
   z-index: 999;
-  background-color:#fff;
+  background-color: #fff;
 }
-.position{
+
+.position {
   box-sizing: border-box;
 }
 
-.position image{
+.position image {
   width: 20%;
   height: 90rpx;
   padding-top: 10rpx;
   padding-bottom: 10rpx;
 }
 
-.line{
+.line {
   height: 1px;
   background-color: #999;
 }
-.vex-line{
+
+.vex-line {
   width: 1px;
   background-color: #999;
 }
 
-.equip-list{
+.equip-list {
   margin-top: 250rpx;
+}
+
+.my-equip-list {
+}
+
+.my-equip-item {
+}
+
+.my-equip-item image {
+  width: 20px;
+  height: 20px;
+}
+
+.my-equip-item text {
+}
+
+.my-stone-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-stone-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.my-skill-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-skill-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.my-skill-item .head {
+  background-color: gray;
+}
+
+.my-skill-item image {
+  width: 20px;
+  height: 20px;
+}
+
+.my-skill-value-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-skill-value-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.my-equip-hole-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-equip-hole-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.my-equip-hole-item .head {
+  background-color: gray;
+}
+
+.my-equip-hole-item image {
+  width: 20px;
+  height: 20px;
+}
+
+.my-equip-armor-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-equip-armor-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.my-equip-armor-item image {
+  width: 20px;
+  height: 20px;
 }

@@ -39,7 +39,7 @@
         "text": "任务"
       },
       {
-        "pagePath": "pages/unknown/index",
+        "pagePath": "pages/equipment/index",
         "iconPath": "assets/icons/common/ItemIcon024.png",
         "selectedIconPath": "assets/icons/common/ItemIcon024a.png",
         "text": "配装"

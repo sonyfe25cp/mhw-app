@@ -3,6 +3,8 @@
 const app = getApp()
 
 const fetch = require('../../utils/fetch')
+const pageSize = 3
+var page = 1
 
 Page({
   data: {
@@ -13,17 +15,10 @@ Page({
     news: [],
     hasMore: true
   },
-  //事件处理函数
-  // bindViewTap: function () {
-  //   wx.navigateTo({
-  //     url: '../logs/logs'
-  //   })
-  // },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
     fetch(`/articles?limit=4`)
       .then(res => {
         this.setData({ news: res.data })
@@ -74,28 +69,34 @@ Page({
 
 
   // 下拉刷新数据  
-  pullDownRefresh: function () {
-    console.log('down')
-  },
+  // pullDownRefresh: function () {
+  //   console.log('down')
+  // },
 
   // 上拉加载数据 上拉动态效果不明显有待改善  
-  pullUpLoad: function () {
-    var that = this;
-    console.log('up')
-  },
+  // pullUpLoad: function () {
+  //   var that = this;
+  //   console.log('up')
+  //   page = page + 1
+  //   let offset = (page - 1) * pageSize
+  //   // fetch(`/articles?offset` + offset)
+  //   //   .then(res => {
+  //   //     this.setData({ news: res.data })
+  //   //   })
+  //   console.log('offset:', offset)
+  // },
   // 定位数据  
-  scroll: function (event) {
-    var that = this;
-    // that.setData({
-    //   scrollTop: event.detail.scrollTop
-    // });
-    console.log('scoll')
-  },  
+  // scroll: function (event) {
+  //   var that = this;
+  //   // that.setData({
+  //   //   scrollTop: event.detail.scrollTop
+  //   // });
+  //   console.log('scoll')
+  // },  
 
-  onReachBottom: function(){
-    console.log('aaaa')
-    
-  },
+  // onReachBottom: function(){
+  //   console.log('aaaa')
+  // },
 
   getUserInfo: function (e) {
     app.globalData.userInfo = e.detail.userInfo

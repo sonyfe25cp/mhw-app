@@ -1,89 +1,225 @@
 <!--pages/equipment/index.wxml-->
 <!-- <text>pages/equipment/index.wxml</text> -->
 <!-- 部位 -->
-<view class="equipment">
-   <view class="top"> 
-    <view class="position">
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" 
+  interval="{{interval}}" 
+  duration="{{duration}}"
+  style='height: 800px'
+  >
+<swiper-item>
 
-      <image id="head" bindtap="switchHead" src="/assets/icons/common/ItemIcon002a.png" class="image" wx:if="{{equipType == 'head'}}" />
-      <image id="head" bindtap="switchHead" src="/assets/icons/common/ItemIcon002.png" class="image" wx:else/>
+  <view class="equipment">
+    <view class="top"> 
+      <view class="position">
 
-      <image id="chest" bindtap="switchChest" src="/assets/icons/common/ItemIcon037a.png" class="image" wx:if="{{equipType == 'chest'}}" />
-      <image id="chest" bindtap="switchChest" src="/assets/icons/common/ItemIcon037.png" class="image" wx:else/>
+        <image id="head" bindtap="switchHead" src="/assets/icons/common/ItemIcon002a.png" class="image" wx:if="{{equipType == 'head'}}" />
+        <image id="head" bindtap="switchHead" src="/assets/icons/common/ItemIcon002.png" class="image" wx:else/>
 
-      <image id="hand" bindtap="switchHand" src="/assets/icons/common/ItemIcon013a.png" class="image" wx:if="{{equipType == 'hand'}}" />
-      <image id="hand" bindtap="switchHand" src="/assets/icons/common/ItemIcon013.png" class="image" wx:else/>
+        <image id="chest" bindtap="switchChest" src="/assets/icons/common/ItemIcon037a.png" class="image" wx:if="{{equipType == 'chest'}}" />
+        <image id="chest" bindtap="switchChest" src="/assets/icons/common/ItemIcon037.png" class="image" wx:else/>
 
-      <image id="weist" bindtap="switchWeist" src="/assets/icons/common/ItemIcon018a.png" class="image" wx:if="{{equipType == 'weist'}}" />
-      <image id="weist" bindtap="switchWeist" src="/assets/icons/common/ItemIcon018.png" class="image" wx:else/>
+        <image id="hand" bindtap="switchHand" src="/assets/icons/common/ItemIcon013a.png" class="image" wx:if="{{equipType == 'hand'}}" />
+        <image id="hand" bindtap="switchHand" src="/assets/icons/common/ItemIcon013.png" class="image" wx:else/>
 
-      <image id="leg" bindtap="switchLeg" src="/assets/icons/common/ItemIcon010a.png" class="image" wx:if="{{equipType == 'leg'}}" />
-      <image id="leg" bindtap="switchLeg" src="/assets/icons/common/ItemIcon010.png" class="image" wx:else/>
-    </view>
-    <view class="line" />
-    <!-- 射手or近战 -->
-    <view class="equip-type">
-      <picker bindchange="bindHunterTypePickerChange" value="{{index}}" range="{{hunterTypesName}}">
-        <view class="picker">
-          类型：{{hunterTypes[index].value}}
-        </view>
-      </picker>
-    </view>
-    <view class="line" />
-    <!-- 技能 -->
-    <view>
-      <picker bindchange="bindPickerChange" value="{{index}}" range="{{skills}}">
-        <view class="picker">
-          技能：{{skills[index]}}
-        </view>
-      </picker>
-    </view>
-    <view class="line" />
-   </view> 
-  <!-- 装备列表 -->
-  <view class="equip-list">
-    <navigator class="item" wx:for="{{equipments}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
-      <view class="meta">
-        <text class="name">{{item.name}}</text>
-        <view class="def">
-          <text class="normal-def">防御：{{item.defMin || '0'}}-{{item.defMax || '0'}}</text>
-          <text class="dragon-def">龙:{{item.dragonDef}}</text>
-          <text class="fire-def">火:{{item.fireDef}}</text>
-          <text class="water-def">水:{{item.waterDef}}</text>
-          <text class="thunder-def">雷:{{item.thunderDef}}</text>
-          <text class="ice-def">冰:{{item.iceDef}}</text>
-        </view>
-        <view class="skill-group">
-          <text class="slot">孔:{{item.slots || '0'}}</text>
-          <block wx:key="id" wx:for="{{item.skill}}">
-            <text>{{item.name}}:{{item.value}}</text>
-          </block>
-        </view>
+        <image id="weist" bindtap="switchWeist" src="/assets/icons/common/ItemIcon018a.png" class="image" wx:if="{{equipType == 'weist'}}" />
+        <image id="weist" bindtap="switchWeist" src="/assets/icons/common/ItemIcon018.png" class="image" wx:else/>
+
+        <image id="leg" bindtap="switchLeg" src="/assets/icons/common/ItemIcon010a.png" class="image" wx:if="{{equipType == 'leg'}}" />
+        <image id="leg" bindtap="switchLeg" src="/assets/icons/common/ItemIcon010.png" class="image" wx:else/>
       </view>
       <view class="line" />
-    </navigator>
+      <!-- 射手or近战 -->
+      <view class="equip-type">
+        <picker bindchange="bindHunterTypePickerChange" value="{{index}}" range="{{hunterTypesName}}">
+          <view class="picker">
+            类型：{{hunterTypes[index].value}}
+          </view>
+        </picker>
+      </view>
+      <view class="line" />
+      <!-- 技能 -->
+      <view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{skills}}">
+          <view class="picker">
+            技能：{{skills[index]}}
+          </view>
+        </picker>
+      </view>
+      <view class="line" />
+    </view> 
+    <!-- 装备列表 -->
+    <view class="equip-list">
+      <navigator class="item" wx:for="{{equipments}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
+        <view class="meta">
+          <text class="name">{{item.name}}</text>
+          <view class="def">
+            <text class="normal-def">防御：{{item.defMin || '0'}}-{{item.defMax || '0'}}</text>
+            <text class="dragon-def">龙:{{item.dragonDef}}</text>
+            <text class="fire-def">火:{{item.fireDef}}</text>
+            <text class="water-def">水:{{item.waterDef}}</text>
+            <text class="thunder-def">雷:{{item.thunderDef}}</text>
+            <text class="ice-def">冰:{{item.iceDef}}</text>
+          </view>
+          <view class="skill-group">
+            <text class="slot">孔:{{item.slots || '0'}}</text>
+            <block wx:key="id" wx:for="{{item.skill}}">
+              <text>{{item.name}}:{{item.value}}</text>
+            </block>
+          </view>
+        </view>
+        <view class="line" />
+      </navigator>
+    </view>
   </view>
-</view>
 
-<scroll-view scroll-y style="height: 200px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
-    <view id="green" class="scroll-view-item bc_green">
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>123123123</text>
+  <scroll-view scroll-y style="height: 200px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+      <view id="green" class="scroll-view-item bc_green">
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>123123123</text>
+      </view>
+      <view id="red"  class="scroll-view-item bc_red">
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>123123123</text>
+      <text>1231231234444</text>
+      <text>123123123</text>
+      </view>
+      <view id="yellow" class="scroll-view-item bc_yellow"></view>
+      <view id="blue" class="scroll-view-item bc_blue"></view>
+    </scroll-view>
+
+  </swiper-item>
+  <swiper-item>
+
+  <view>
+    <text>配装</text>
+
+    <view class="my-equip-list">
+      <view class="my-equip-item">
+        <image src="/assets/icons/common/ItemIcon002.png"/>
+        <text>adfad</text>
+      </view>
+      <view class="my-equip-item">
+        <image src="/assets/icons/common/ItemIcon037.png"/>
+        <text>adfad</text>
+      </view>
+      <view class="my-equip-item">
+        <image src="/assets/icons/common/ItemIcon013.png"/>
+        <text>adfad</text>
+      </view>
+      <view class="my-equip-item">
+        <image src="/assets/icons/common/ItemIcon018.png"/>
+        <text>adfad</text>
+      </view>
+      <view class="my-equip-item">
+        <image src="/assets/icons/common/ItemIcon010.png"/>
+        <text>adfad</text>
+      </view>
     </view>
-    <view id="red"  class="scroll-view-item bc_red">
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>123123123</text>
-    <text>1231231234444</text>
-    <text>123123123</text>
+    <view class="my-stone-list">
+      <view class="my-stone-item">
+        <text>护石1:</text>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            技能：{{array[index]}}
+          </view>
+        </picker>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            数值：{{array[index]}}
+          </view>
+        </picker>
+      </view>
+      <view class="my-stone-item">
+        <text>护石2:</text>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            技能：{{array[index]}}
+          </view>
+        </picker>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            数值：{{array[index]}}
+          </view>
+        </picker>
+      </view>
     </view>
-    <view id="yellow" class="scroll-view-item bc_yellow"></view>
-    <view id="blue" class="scroll-view-item bc_blue"></view>
-  </scroll-view>
+    <view class="my-skill-list">
+      <view class="my-skill-item head">
+        <text>技能</text>
+        <image src="/assets/icons/common/ItemIcon002.png"/>
+        <image src="/assets/icons/common/ItemIcon002.png"/>
+        <image src="/assets/icons/common/ItemIcon037.png"/>
+        <image src="/assets/icons/common/ItemIcon013.png"/>
+        <image src="/assets/icons/common/ItemIcon018.png"/>
+        <image src="/assets/icons/common/ItemIcon010.png"/>
+        <image src="/assets/icons/common/ItemIcon010.png"/>
+        <text>总计</text>
+      </view>
+      <view class="my-skill-item">
+        
+      </view>
+    </view>
+    <view class="my-skill-value-list">
+      <view class="my-skill-value-item">
+        <text></text>
+        <text></text>
+      </view>
+    </view>
+
+    <view class="my-equip-hole-list">
+      <view class="my-equip-hole-item head">
+        <text>孔</text>
+        <text>配珠</text>
+        <text>操作</text>
+      </view>
+      <view class="my-equip-hole-item">
+        <image src="/assets/icons/common/ItemIcon002.png"/>
+        <text></text>
+        <view></view>
+        <text>asb</text>
+      </view>
+      <view class="my-equip-hole-item">
+        <image src="/assets/icons/common/ItemIcon037.png"/>
+        <text></text>
+        <view></view>
+        <text>asb</text>
+      </view>
+    </view>
+
+    <view class="my-equip-armor-list">
+      <view class="my-equip-armor-item head">
+        <text></text>
+        <text>防最小</text>
+        <text>防最大</text>
+        <text>龙</text>
+        <text>火</text>
+        <text>水</text>
+        <text>雷</text>
+        <text>冰</text>
+      </view>
+      <view class="my-equip-armor-item">
+        <image src="/assets/icons/common/ItemIcon002.png"/>
+        <text>1</text>
+        <text>2</text>
+        <text>1</text>
+        <text>1</text>
+        <text>1</text>
+        <text>1</text>
+        <text>1</text>
+      </view>
+    </view>
+  </view>
+
+  <button>保存</button>
+
+  </swiper-item>
+  </swiper>
